@@ -6,7 +6,7 @@ import com.example.rickandmortyandroid.model.Info
 import com.example.rickandmortyandroid.useCase.RickAandMortyUseCase
 import kotlinx.coroutines.launch
 
-open class RickAndMortyViewModel(private val useCase: RickAandMortyUseCase) : CoroutineViewModel() {
+open class  RickAndMortyViewModel(private val useCase: RickAandMortyUseCase) : CoroutineViewModel() {
 
     var successLiveData = MutableLiveData<List<Info>>()
     var errorLiveData = MutableLiveData<String>()
